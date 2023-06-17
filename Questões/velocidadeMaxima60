@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+#define VELOCIDADE_MAXIMA 60
+
+int main() {
+    int velocidade;
+
+    printf("Digite a velocidade do veículo: ");
+    scanf("%d", &velocidade);
+
+    if (velocidade > VELOCIDADE_MAXIMA) {
+        printf("O veículo está acima da velocidade permitida.\n");
+    } else {
+        printf("O veículo está dentro da velocidade permitida.\n");
+    }
+
+    return 0;
+}
